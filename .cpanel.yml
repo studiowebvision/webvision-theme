@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/startjewebsite/demo.startjewebsite.be/wp-content/themes/webvision-theme/
+    - /bin/cp -R * $DEPLOYPATH
+    
