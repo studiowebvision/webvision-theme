@@ -14,3 +14,5 @@ $myUpdateChecker->setAuthentication('29139acb9b6cddff2a991f15c449e063a3480d4d');
 
 //Optional: Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');
+
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
