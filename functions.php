@@ -298,6 +298,7 @@ require get_template_directory() . '/inc/plugin-compatibility/plugin-compatibili
  * Load custom WordPress nav walker.
  */
 
+/* Load update checker */
 require get_template_directory() . '/update.php';
 
 if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
